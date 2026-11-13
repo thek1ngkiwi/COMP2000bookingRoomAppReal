@@ -25,9 +25,15 @@
             android:name=".historypage"
             android:exported="false"
             android:windowSoftInputMode="adjustResize">
+
         </activity>
         <activity
             android:name=".activity_profilepage"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize">
+        </activity>
+        <activity
+            android:name=".activity_slotspage"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
