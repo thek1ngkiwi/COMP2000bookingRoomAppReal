@@ -170,4 +170,40 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/hotbar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageButton
+            android:id="@+id/calendarNavButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/calendaricon"
+            android:contentDescription="calendar screen button" />
+
+        <ImageButton
+            android:id="@+id/historyNavButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/historyicon"
+            android:contentDescription="history screen button" />
+
+        <ImageButton
+            android:id="@+id/profileNavButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/profileicon"
+            android:contentDescription="profile screen button" />
+
+    </LinearLayout>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
