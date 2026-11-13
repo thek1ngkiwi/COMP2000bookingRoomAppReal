@@ -19,9 +19,15 @@
             android:name=".HomePageActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize">
+
         </activity>
         <activity
             android:name=".historypage"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize">
+        </activity>
+        <activity
+            android:name=".activity_profilepage"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -30,7 +36,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
